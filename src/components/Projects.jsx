@@ -8,7 +8,7 @@ const projects = [
     description:
       'An Android app to detect fake news using Natural Language Processing model integrated with TensorFlow.',
     tech: ['TensorFlow', 'Android', 'Python'],
-    image: { HoaXGY },
+    image: HoaXGY,
     demo: 'https://drive.google.com/file/d/1SLHX_6--09NHHK9nI0-zbzKBGX_yIzha/view?usp=drive_link',
     link: 'https://github.com/lukmanharahap/fake-news-detection',
   },
@@ -17,7 +17,7 @@ const projects = [
     description:
       'Developed manual and autonomous robot for Kontes Robot ABU Indonesia 2024 with computer vision integrated.',
     tech: ['Python', 'C/C++', 'OpenCV', 'YOLO', 'STM32', 'Arduino'],
-    image: { Robot },
+    image: Robot,
     demo: 'https://drive.google.com/file/d/1cqb1ohYsukunoYu_7H_ezQfLq5JHBKi9/view?usp=drive_link',
     link: 'https://github.com/lukmanharahap/INVICTO-2024',
   },
@@ -26,7 +26,7 @@ const projects = [
     description:
       'A web-based dashboard for visualizing and analyzing air quality data.',
     tech: ['Python', 'Streamlit', 'Pandas'],
-    image: { AirAnalysis },
+    image: AirAnalysis,
     demo: 'https://air-quality-analysis-project.streamlit.app/',
     link: 'https://github.com/lukmanharahap/Air-Quality-Analysis',
   },
