@@ -7,7 +7,7 @@ const projects = [
     title: 'HoaXGY - Android Application for Hoax Detection',
     description:
       'An Android app to detect fake news using Natural Language Processing model integrated with TensorFlow.',
-    tech: ['TensorFlow', 'Android', 'Python'],
+    tech: ['Python', 'Google Colab', 'Pandas', 'TensorFlow'],
     image: HoaXGY,
     demo: 'https://drive.google.com/file/d/1SLHX_6--09NHHK9nI0-zbzKBGX_yIzha/view?usp=drive_link',
     link: 'https://github.com/lukmanharahap/fake-news-detection',
@@ -24,7 +24,7 @@ const projects = [
   {
     title: 'Air Quality Analysis Dashboard',
     description:
-      'A web-based dashboard for visualizing and analyzing air quality data.',
+      'Built an interactive dashboard to analyze and present air quality data using Streamlit.',
     tech: ['Python', 'Streamlit', 'Pandas'],
     image: AirAnalysis,
     demo: 'https://air-quality-analysis-project.streamlit.app/',

@@ -20,7 +20,7 @@ const experiences = [
     company: 'Brawijaya Robotics Team',
     duration: '2022 - 2024',
     description:
-      'Developed autonomous robotics systems with STM32F4 microcontrollers and computer vision integration.',
+      'Developed autonomous robotics systems that excelled in national competitions, utilizing computer vision and control algorithms.',
   },
 ];
 

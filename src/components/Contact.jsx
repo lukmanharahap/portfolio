@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
 import { IoMdContact } from 'react-icons/io';
-import { PiReadCvLogoBold } from 'react-icons/pi';
+// import { PiReadCvLogoBold } from 'react-icons/pi';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const Contact = () => {
@@ -24,12 +24,12 @@ const Contact = () => {
       icon: <SiGmail size={30} />,
       href: 'mailto:lukmanharahap28@gmail.com',
     },
-    {
-      name: 'Resume',
-      icon: <PiReadCvLogoBold size={30} />,
-      href: '/CV_Lukman Harahap.pdf',
-      download: true,
-    },
+    // {
+    //   name: 'Resume',
+    //   icon: <PiReadCvLogoBold size={30} />,
+    //   href: '/CV_Lukman Harahap.pdf',
+    //   download: true,
+    // },
   ];
 
   return (
@@ -66,9 +66,9 @@ const Contact = () => {
 
       <motion.button
         onClick={() => setShowContacts(!showContacts)}
-        className="fixed bottom-6 right-6 bg-primary p-3 rounded-full shadow-lg text-white hover:bg-secondary transition z-50"
+        className="fixed bottom-5 right-6 bg-primary p-3 rounded-full text-white hover:bg-secondary transition z-50"
       >
-        <IoMdContact size={40} />
+        <IoMdContact size={38} />
       </motion.button>
 
       <AnimatePresence>
@@ -78,7 +78,7 @@ const Contact = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 50 }}
             transition={{ duration: 0.3 }}
-            className="fixed bottom-24 right-7 flex flex-col items-center space-y-3 z-50"
+            className="fixed flex flex-col items-center bottom-24 right-7 space-y-3 z-50"
           >
             {contacts.map((contact, index) => (
               <motion.a
@@ -86,8 +86,8 @@ const Contact = () => {
                 href={contact.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-dark p-3 rounded-full shadow-md text-white hover:text-primary transition"
-                download={contact.download}
+                className="group relative bg-dark p-3 rounded-full shadow-md text-white hover:text-primary transition"
+                // download={contact.download}
                 whileTap={{ scale: 0.9 }}
               >
                 {contact.icon}

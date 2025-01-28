@@ -14,6 +14,7 @@ import {
   SiPandas,
   SiNumpy,
   SiStreamlit,
+  SiGooglecolab,
 } from 'react-icons/si';
 import { TbBrandCpp } from 'react-icons/tb';
 
@@ -22,6 +23,7 @@ const TechStack = () => {
     { name: 'Python', icon: <SiPython /> },
     { name: 'C++', icon: <TbBrandCpp /> },
     { name: 'SQL', icon: <SiMysql /> },
+    { name: 'Google Colab', icon: <SiGooglecolab /> },
     { name: 'Pandas', icon: <SiPandas /> },
     { name: 'Numpy', icon: <SiNumpy /> },
     { name: 'Streamlit', icon: <SiStreamlit /> },

@@ -19,15 +19,13 @@ const Hero = () => {
           </h1>
           <p className="text-lg font-sans text-gray-800 mt-4 max-w-prose mx-auto md:mx-0">
             I'm an aspiring{' '}
-            <span className="text-primary font-bold">Data Scientist</span> with
-            a background in Electrical Engineering and a passion for creating
-            innovative solutions through technology.
-            <br /> <br />
+            <span className="text-primary font-bold">
+              Technologist and Data
+            </span>{' '}
             With 2 years of experience in technology and data, I specialize in
-            AI frameworks, robotics systems, and computer vision. I thrive on
-            solving real-world problems, exploring new tools, and continuously
-            growing my expertise to stay ahead in the ever-evolving world of
-            Data Science.
+            analytics, machine learning, and robotics systems. Always eager to
+            grow, I'm on a journey to explore opportunities where I can
+            contribute, learn, and grow.
           </p>
           <div className="flex mt-6 items-center justify-center md:justify-start">
             <a
