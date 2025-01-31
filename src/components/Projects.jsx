@@ -25,10 +25,19 @@ const projects = [
     title: 'Air Quality Analysis Dashboard',
     description:
       'Built an interactive dashboard to analyze and present air quality data using Streamlit.',
-    tech: ['Python', 'Streamlit', 'Pandas'],
+    tech: ['Python', 'Pandas', 'Streamlit'],
     image: AirAnalysis,
     demo: 'https://air-quality-analysis-project.streamlit.app/',
     link: 'https://github.com/lukmanharahap/Air-Quality-Analysis',
+  },
+  {
+    title: 'Telecom Customer Churn prediction',
+    description:
+      'Built machine learning model for telecom customer churn prediction and built an interactive dashboard for real-time predictions using Streamlit.',
+    tech: ['Python', 'Pandas', 'Scikit-learn', 'Streamlit'],
+    image: AirAnalysis,
+    demo: 'https://telecom-customer-churn-prediction.streamlit.app/',
+    link: 'https://github.com/lukmanharahap/Telecom-Customer-Churn-Prediction',
   },
 ];
 
